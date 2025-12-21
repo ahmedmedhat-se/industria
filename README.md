@@ -50,11 +50,10 @@ server/
 ```
 client/
 ├── public/
-│   └── index.html
+│   └── vite.svg
 ├── src/
 │   ├── assets/
-│   │   ├── images/
-│   │   └── styles/
+│   │   └── react.svg
 │   ├── components/
 │   │   ├── common/
 │   │   │   ├── Navbar.jsx
@@ -74,7 +73,6 @@ client/
 │   │   ├── admin/
 │   │   │   ├── ManageBookings.jsx
 │   │   │   └── ManageUsers.jsx
-│   │   └── styles.css
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── MyBookings.jsx
@@ -91,8 +89,14 @@ client/
 │   │   └── useAuth.js
 │   ├── utils/
 │   │   └── constants.js
-│   ├── css/
+│   ├── styles/
+│   │   ├── alert.css
+│   │   ├── footer.css
+│   │   ├── navbar.css
+│   │   ├── modal.css
+│   │   └── notfound.css
 │   ├── App.jsx
+│   ├── App.css
 │   ├── main.jsx
 │   └── index.css
 ├── .gitignore

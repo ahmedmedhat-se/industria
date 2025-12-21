@@ -57,22 +57,40 @@ client/
 │   │   └── styles/
 │   ├── components/
 │   │   ├── common/
-│   │   ├── layout/
-│   │   ├── ui/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Modal.jsx
+│   │   │   └── Alert.jsx
+│   │   ├── auth/
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   ├── booking/
+│   │   │   ├── BookingPage.jsx
+│   │   │   ├── TimeSlots.jsx
+│   │   │   └── BookingForm.jsx
+│   │   ├── dashboard/
+│   │   │   ├── UserDashboard.jsx
+│   │   │   └── AdminDashboard.jsx
+│   │   ├── admin/
+│   │   │   ├── ManageBookings.jsx
+│   │   │   └── ManageUsers.jsx
 │   │   └── styles.css
 │   ├── pages/
-│   │   ├── Auth/
-│   │   ├── Dashboard/
-│   │   ├── Bookings/
-│   │   └── Admin/
+│   │   ├── Home.jsx
+│   │   ├── MyBookings.jsx
+│   │   └── AdminPanel.jsx
 │   ├── services/
-│   │   └── api.js
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   └── bookingService.js
 │   ├── routes/
 │   │   └── AppRoutes.jsx
 │   ├── context/
 │   │   └── AuthContext.jsx
 │   ├── hooks/
+│   │   └── useAuth.js
 │   ├── utils/
+│   │   └── constants.js
 │   ├── css/
 │   ├── App.jsx
 │   ├── main.jsx

@@ -46,6 +46,45 @@ server/
 └── README.md
 ```
 
+### fRONTEND (React.js)
+```
+client/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   ├── ui/
+│   │   └── styles.css
+│   ├── pages/
+│   │   ├── Auth/
+│   │   ├── Dashboard/
+│   │   ├── Bookings/
+│   │   └── Admin/
+│   ├── services/
+│   │   └── api.js
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── hooks/
+│   ├── utils/
+│   ├── css/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
 ---
 ## 🛠️ Technologies Used
 | Technology                                                                                                                | Purpose             | Version |

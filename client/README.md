@@ -1,16 +1,125 @@
-# React + Vite
+# Industria – Client (Booking System UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Overview
+**Industria Client** is the frontend application for the Industria booking platform.  
+It provides a modern, responsive, and user-friendly interface that allows users to browse available time slots, manage bookings, and interact seamlessly with the booking system.
 
-Currently, two official plugins are available:
+The client focuses on **usability**, **performance**, and **clean UI/UX**, ensuring a smooth experience across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Developed by:** Ahmed Medhat & Lucas Monir  
+**Project Type:** Frontend Web Application  
+**License:** Proprietary – All rights reserved
 
-## React Compiler
+---
+## 🏗️ Client Structure
+```
+client/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layout/
+│   │   ├── ui/
+│   │   └── styles.css
+│   ├── pages/
+│   │   ├── Auth/
+│   │   ├── Dashboard/
+│   │   ├── Bookings/
+│   │   └── Admin/
+│   ├── services/
+│   │   └── api.js
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── hooks/
+│   ├── utils/
+│   ├── css/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+## 🛠️ Technologies Used
+| Technology | Purpose | Version |
+|-----------|--------|---------|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | UI Library | 18.x |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | Latest |
+| ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) | CSS Framework | 5.x |
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | HTTP Client | 1.x |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | Client Routing | 6.x |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=font-awesome&logoColor=white) | Icons | 6.x |
 
-## Expanding the ESLint configuration
+---
+## ✨ Core Client Features
+### 🔐 Authentication UI
+- Login and registration pages
+- JWT-based session handling (via API)
+- Protected routes
+- Role-based navigation (User / Admin)
+- Persistent login state
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+### 📅 Booking Interface
+**User Features**
+- View available time slots
+- Create bookings
+- View booking history
+- Cancel or reschedule bookings
+- Booking status indicators
+
+**Admin Features**
+- Booking overview dashboard
+- User management views
+- Time slot control interface
+- Analytics & statistics views
+
+---
+### 🎨 UI / UX
+- Fully responsive layout
+- Clean and modern design
+- Interactive modals and alerts
+- Accessible navigation
+- Dashboard-driven layout
+- Optimized user flows
+
+---
+## ⚡ Client Logic
+- Centralized API service using Axios
+- Global authentication context
+- Route guards for protected pages
+- Reusable UI components
+- Modular and scalable structure
+
+---
+## 🚀 Getting Started
+### Prerequisites
+- **Node.js** v18+
+- **npm**
+
+---
+## 🤝 Contributing
+This is a **proprietary project**. External contributions are **not accepted**.
+
+---
+## 📄 License
+**PROPRIETARY LICENSE**
+© 2025 Ahmed Medhat & Lucas Monir. All Rights Reserved.
+
+This software and associated documentation are proprietary and confidential. No part of this project may be reproduced, distributed, or transmitted in any form without prior written permission from the authors.
+
+---
+## 👥 Authors
+* **Ahmed Medhat** – Full Stack Web Developer
+* **Lucas Monir** – Full Stack Web Developer

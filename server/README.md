@@ -12,35 +12,37 @@ The API enforces strict rules to prevent double bookings and ensures reliable, s
 
 ---
 ## 🏗️ Server Architecture (MVC)
+```
 server/
-│ ├── config/
-│ │ ├── db_config.js
-│ │ └── index.js
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ ├── bookingController.js
-│ │ ├── userController.js
-│ │ └── adminController.js
-│ ├── models/
-│ │ ├── User.js
-│ │ ├── Booking.js
-│ │ └── TimeSlot.js
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ ├── bookingRoutes.js
-│ │ ├── userRoutes.js
-│ │ └── adminRoutes.js
-│ ├── middleware/
-│ │ ├── authMiddleware.js
-│ │ └── validationMiddleware.js
-│ ├── utils/
-│ │ ├── validators.js
-│ │ └── jwt.js
-│ ├── public/
-│ └── server.js
+│   ├── config/
+│   │   ├── db_config.js
+│   │   └── index.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── bookingController.js
+│   │   ├── userController.js
+│   │   └── adminController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Booking.js
+│   │   ├── TimeSlot.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── bookingRoutes.js
+│   │   ├── userRoutes.js
+│   │   ├── adminRoutes.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── validationMiddleware.js
+│   ├── utils/
+│   │   ├── validators.js
+│   │   └── jwt.js
+│   ├── public/
+│   └── server.js
 ├── .env
 ├── package.json
 └── README.md
+```
 
 ---
 ## 🛠️ Technologies Used
